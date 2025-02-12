@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 
 //Console.Write("Enter the number of characters in your array: ");
 //int n = int.Parse(Console.ReadLine());
-//int[] numbers  = new int[n];
+//int[] numbers = new int[n];
 //int sum = 0;
 //for (int i = 0; i < n; i++)
 //{
@@ -107,19 +107,19 @@ using System.Diagnostics.CodeAnalysis;
 
 
 ////Task 6 - Massivin tərsinə dövr etməklə yeni massiv yaradın.
-Console.WriteLine("Enter the number of characters in your array: ");
-int n = int.Parse(Console.ReadLine());
-int[] array1 = new int[n];
-int[] array2 = new int[n];
-for (int i = 0; i < n; i++)
-{
-    array1[i] = int.Parse(Console.ReadLine());
-}
-for (int i = 0;i < n-1; i++)
-{
-    array2[i] = array1[n - i];
-}
-for (int i = 0; i<n ; i++)
-{
-    Console.WriteLine(array2[i]);
-}
+//Console.WriteLine("Enter the number of characters in your array: ");
+//int n = int.Parse(Console.ReadLine());
+//int[] array1 = new int[n];
+//int[] array2 = new int[n];
+//for (int i = 0; i < n; i++)
+//{
+//    array1[i] = int.Parse(Console.ReadLine());
+//}
+//for (int i = 0;i < n; i++)
+//{
+//    array2[i] = array1[n - 1 -i];
+//}
+//for (int i = 0; i<n ; i++)
+//{
+//    Console.WriteLine(array2[i]);
+//}
